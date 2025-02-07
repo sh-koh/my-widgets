@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "astal-haskell": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1736154509,
+        "narHash": "sha256-27exgtjabItg2q0st1hF2RVuMSRSWy/JcojVQfu/lK0=",
+        "owner": "aylur",
+        "repo": "astal",
+        "rev": "439667d838677406880c93cc03f3e46072bc53ed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aylur",
+        "ref": "feat/haskell-bindings",
+        "repo": "astal",
+        "type": "github"
+      }
+    },
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1738453229,
+        "narHash": "sha256-7H9XgNiGLKN1G1CgRh0vUL4AheZSYzPm+zmZ7vxbJdo=",
+        "path": "/nix/store/iskp8axrkjgrhc3mr6n6b2acdam3vkhv-source",
+        "rev": "32ea77a06711b758da0ad9bd6a844c5740a87abd",
+        "type": "path"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "haskell-flake": {
+      "locked": {
+        "lastModified": 1738519333,
+        "narHash": "sha256-QK7DIUmUC76cEBlntkDyBrhrZMD5fioCT2Xd6RbA8a8=",
+        "owner": "srid",
+        "repo": "haskell-flake",
+        "rev": "dcca937807b7190934118ae476865301885aef15",
+        "type": "github"
+      },
+      "original": {
+        "owner": "srid",
+        "repo": "haskell-flake",
+        "type": "github"
+      }
+    },
+    "haskell-gi": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1738512237,
+        "narHash": "sha256-WXbkSot6kEIPWMCpghsh1SNNUi6DtKP8bio8owHxnVU=",
+        "owner": "haskell-gi",
+        "repo": "haskell-gi",
+        "rev": "80874d5874e30d0e13c5e77cc98495439b2a6743",
+        "type": "github"
+      },
+      "original": {
+        "owner": "haskell-gi",
+        "repo": "haskell-gi",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1738410390,
+        "narHash": "sha256-xvTo0Aw0+veek7hvEVLzErmJyQkEcRk6PSR4zsRQFEc=",
+        "path": "/nix/store/hjb1rqv2mfs5ny47amj2gsc8xk05x5g6-source",
+        "rev": "3a228057f5b619feb3186e986dbe76278d707b6e",
+        "type": "path"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1738452942,
+        "narHash": "sha256-vJzFZGaCpnmo7I6i416HaBLpC+hvcURh/BQwROcGIp8=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/072a6db25e947df2f31aab9eccd0ab75d5b2da11.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/072a6db25e947df2f31aab9eccd0ab75d5b2da11.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "astal-haskell": "astal-haskell",
+        "flake-parts": "flake-parts",
+        "haskell-flake": "haskell-flake",
+        "haskell-gi": "haskell-gi",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

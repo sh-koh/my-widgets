@@ -1,0 +1,41 @@
+cabal-version:        3.0
+name:                 mywidgets
+version:              0.1.0.0
+author:               sh-koh
+maintainer:           70974710+sh-koh@users.noreply.github.com
+build-type:           Simple
+
+common warnings
+  ghc-options:        -Wall -Wunused-imports
+  default-language:   Haskell2010
+
+executable mywidgets
+  import:             warnings
+  main-is:            Main.hs
+  hs-source-dirs:     src
+  other-modules:
+    MyWidgets,
+    MyWidgets.Main,
+    MyWidgets.Bar,
+    MyWidgets.Notification,
+    MyWidgets.Panel
+  build-depends:
+    base ^>=4.18.2.1,
+    haskell-gi,
+    haskell-gi-base,
+    gi-gobject,
+    gi-gtk,
+    gi-gio,
+    gi-astal,
+    gi-astal-apps,
+    gi-astal-battery,
+    gi-astal-bluetooth,
+    gi-astal-hyprland,
+    gi-astal-io,
+    gi-astal-mpris,
+    gi-astal-network,
+    gi-astal-notifd,
+    gi-astal-power-profiles,
+    gi-astal-wireplumber,
+    text,
+    time
