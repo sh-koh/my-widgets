@@ -24,6 +24,7 @@ executable mywidgets
     haskell-gi,
     haskell-gi-base,
     gi-gobject,
+    gi-gdk,
     gi-gtk,
     gi-gio,
     gi-astal,
